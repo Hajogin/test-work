@@ -20,34 +20,31 @@ html, body {
     height: 33.9%;
 }
 .wrapper {
-    width: 50%;
+    max-width: 960px;
     height: 100%;
     margin: 0 auto;
     /*background-color: black;*/
 }
 
-.container {
-    margin: 0;
-    display: flex;
-    flex-flow: row wrap;
-}
-.container >* {
-    flex: 1 100%;
-    padding: 10px;
+.container:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
 }
 .logo-1 {
     text-align: left;
+    float: left;
+    padding: 23px 0 26px;
+}
+.logo-1 img {
+    display: block;
 }
 .logo-2 {
     text-align: right;
-}
-@media all and (min-width: 600px) {
-    .logo { flex: 1 auto; }
-}
-
-@media all and (min-width: 800px) {
-    .logo-1 { order: 1; }
-    .logo-2 { order: 2; }
+    float: right;
+    padding: 23px 0 26px;
 }
 .social {
     display: inline-block;
@@ -61,13 +58,21 @@ html, body {
     background-position: -27px 0;
 }
 
-
-
-
-.info p {
-    color: #ffffff;
+.info .wrapper div {
+    max-width: 500px;
     margin: 0;
+    color: #ffffff;
+    padding-top: 121px;
 }
+.info .wrapper {
+    min-height: 550px;
+    background-image: url("../images/logo/common_image.png");
+    background-repeat: no-repeat;
+    background-position: 470px;
+}
+
+
+
 .main .wrapper h1 {
     font-family: 'Segoe UI';
     color:  #1b2432;
@@ -86,7 +91,7 @@ html, body {
     display: -webkit-flex;
     display: flex;
     -webkit-flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .flex-item {
     border: 2px solid #d7d7d7;
@@ -106,13 +111,35 @@ html, body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    min-height: 176px;
+    align-content: space-between;
 }
 .flex-items {
     border: 2px solid #0078d7;
     color: #0078d7;
-    margin: 15px;
-    padding: 10px;
+    min-height: 76px;
 }
+.flex-items div {
+    padding: 17px 0 0 36px;
+}
+.flex-items:nth-child(1) {
+    width: 556px;
+}
+.flex-items:nth-child(2) {
+    width: 380px;
+}
+.flex-items:nth-child(3) {
+    width: 336px;
+}
+.flex-items:nth-child(4) {
+    width: 364px;
+}
+.flex-items:nth-child(5) {
+    width: 209px;
+}
+
 .container-2 h1 {
     font-family: 'Segoe UI';
     color:  #1b2432;
@@ -123,7 +150,7 @@ html, body {
 .block {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .flex-block {
     width: 82px;
@@ -135,7 +162,4 @@ html, body {
     font-family: 'Segoe UI';
     font-size: 55px;
     font-weight: 600;
-}
-.text-block {
-
 }
