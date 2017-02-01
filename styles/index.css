@@ -102,6 +102,7 @@ html, body {
     border: 2px solid #d7d7d7;
     width: 201px;
     height: 118px;
+    margin-bottom: 20px;
 }
 .flex-item-1 {
     background-image: url("../images/logotips/wowza.png");
@@ -150,7 +151,34 @@ html, body {
     font-weight: 600;
     text-align: left;
 }
-
+.aside .wrapper img {
+    width: 165px;
+    height: 99px;
+    float: left;
+    padding-top: 30px;
+}
+.aside-text {
+    max-width: 653px;
+    min-height: 42px;
+    float: right;
+    font-family: 'Segoe UI';
+    color:  #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    padding: 63px 0 62px 0;
+}
+.aside-text span {
+    color:rgb(197, 213, 51);
+    font-weight: bold;
+}
+.aside .wrapper:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
 .container-1 .header h1 {
     font-family: 'Segoe UI';
     color:  #1b2432;
