@@ -70,9 +70,9 @@ html, body {
     background-repeat: no-repeat;
     background-position: 470px;
 }
-
-
-
+.main {
+    margin-bottom: 100px;
+}
 .main .wrapper h1 {
     font-family: 'Segoe UI';
     color:  #1b2432;
@@ -93,12 +93,64 @@ html, body {
     -webkit-flex-flow: row wrap;
     justify-content: space-between;
 }
+.flex-box {
+    width: 205px;
+    height: 213px;
+    margin-top: 60px;
+}
 .flex-item {
     border: 2px solid #d7d7d7;
     width: 201px;
     height: 118px;
-    margin-top: 90px;
 }
+.flex-item-1 {
+    background-image: url("../images/logotips/wowza.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-item-2 {
+    background-image: url("../images/logotips/kaspersky.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-item-3 {
+    background-image: url("../images/logotips/barracuda.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-item-4 {
+    background-image: url("../images/logotips/oracle.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-item-5 {
+    background-image: url("../images/logotips/coreos.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-item-6 {
+    background-image: url("../images/logotips/opensource.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-item-7 {
+    background-image: url("../images/logotips/datameer.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-item-8 {
+    background-image: url("../images/logotips/zend.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-box .text {
+    font-family: 'Segoe UI';
+    color:  #1b2432;
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+}
+
 .container-1 .header h1 {
     font-family: 'Segoe UI';
     color:  #1b2432;
