@@ -219,15 +219,28 @@ html, body {
 .flex-items:nth-child(5) {
     width: 209px;
 }
-
+.flex-items div a {
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    color:  #0078d7;
+    font-size: 16px;
+    font-weight: 600;
+}
+.flex-items div a:active {
+    color: white;
+    background-color:  #7bb63c;
+}
 .container-2 h1 {
     font-family: 'Segoe UI';
     color:  #1b2432;
     font-size: 48px;
     font-weight: 300;
     text-align: center;
+    margin-top: 126px;
 }
 .block {
+    min-height: 282px;
+    margin-top: 80px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -242,4 +255,12 @@ html, body {
     font-family: 'Segoe UI';
     font-size: 55px;
     font-weight: 600;
+    margin: 0 44.5px 0 44.5px;
+}
+.text-block {
+    font-family: 'Segoe UI';
+    color:  #1c2532;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
 }
