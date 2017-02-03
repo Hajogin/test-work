@@ -98,6 +98,9 @@ html, body {
     height: 213px;
     margin-top: 60px;
 }
+.flex-box a {
+    text-decoration: none;
+}
 .flex-item {
     border: 2px solid #d7d7d7;
     width: 201px;
@@ -141,6 +144,52 @@ html, body {
 }
 .flex-item-8 {
     background-image: url("../images/logotips/zend.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-box:hover .flex-item {
+    border: 2px solid #7bb63c;;
+}
+.flex-box:hover .text {
+    color: #7bb63c;
+}
+.flex-box:hover .flex-item-1 {
+    background-image: url("../images/logotips/wowza_color.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-box:hover .flex-item-2 {
+    background-image: url("../images/logotips/kaspersky_color.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-box:hover .flex-item-3 {
+    background-image: url("../images/logotips/barracuda_color.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-box:hover .flex-item-4 {
+    background-image: url("../images/logotips/oracle_color.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-box:hover .flex-item-5 {
+    background-image: url("../images/logotips/coreos_color.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-box:hover .flex-item-6 {
+    background-image: url("../images/logotips/opensource_color.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-box:hover .flex-item-7 {
+    background-image: url("../images/logotips/datameer_color.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.flex-box:hover .flex-item-8 {
+    background-image: url("../images/logotips/zend_color.png");
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -226,10 +275,14 @@ html, body {
     font-size: 16px;
     font-weight: 600;
 }
-.flex-items div a:active {
-    color: white;
-    background-color:  #7bb63c;
+.flex-items:hover {
+    background-color: #7bb63c;
+    border: 2px solid #7bb63c;
 }
+.flex-items:hover a {
+    color: #ffffff;
+}
+.f
 .container-2 h1 {
     font-family: 'Segoe UI';
     color:  #1b2432;
