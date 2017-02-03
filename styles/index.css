@@ -23,9 +23,7 @@ html, body {
     max-width: 960px;
     height: 100%;
     margin: 0 auto;
-    /*background-color: black;*/
 }
-
 .container:after {
     visibility: hidden;
     display: block;
@@ -57,7 +55,6 @@ html, body {
 .social-fb {
     background-position: -27px 0;
 }
-
 .info .wrapper div {
     max-width: 500px;
     margin: 0;
@@ -282,7 +279,7 @@ html, body {
 .flex-items:hover a {
     color: #ffffff;
 }
-.f
+
 .container-2 h1 {
     font-family: 'Segoe UI';
     color:  #1b2432;
